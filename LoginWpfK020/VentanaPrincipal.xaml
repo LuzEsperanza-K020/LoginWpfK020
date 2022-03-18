@@ -1,0 +1,29 @@
+﻿<Window x:Class="LoginWpfK020.VentanaPrincipal"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LoginWpfK020"
+        mc:Ignorable="d"
+        Title="VentanaPrincipal" Height="450" Width="600">
+    <WrapPanel>
+        <Button Width="200" Height="200">
+            <Image Width="180" Height="180" Source="/Agregar.png" />
+        </Button>
+        <Button Width="200" Height="200">
+            <Image Width="170" Height="170" Source="/Editar.png" />
+        </Button>
+        <Button Width="200" Height="200">
+            <Image Width="170" Height="170" Source="/Preferencias.jpg" />
+        </Button>
+        <Button Width="200" Height="200">
+            <Image Width="180" Height="180" Source="/Ayuda.png" />
+        </Button>
+        <Button Width="200" Height="200">
+            <Image Width="170" Height="170" Source="/Pagina.jpg" />
+        </Button>
+        <Button Width="200" Height="200">
+            <Image Width="170" Height="170" Source="/Estadistica.jpg" />
+        </Button>
+    </WrapPanel>
+</Window>

@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Agregar.png" />
+    <None Remove="Ayuda.png" />
+    <None Remove="Editar.png" />
+    <None Remove="Estadistica.jpg" />
+    <None Remove="Pagina.jpg" />
+    <None Remove="Preferencias.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\.editorconfig" Link=".editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Mysql.Data" Version="8.0.28" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Agregar.png" />
+    <Resource Include="Ayuda.png" />
+    <Resource Include="Editar.png" />
+    <Resource Include="Estadistica.jpg" />
+    <Resource Include="Pagina.jpg" />
+    <Resource Include="Preferencias.jpg" />
+  </ItemGroup>
+
+</Project>
